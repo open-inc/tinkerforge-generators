@@ -1,3 +1,9 @@
+open-inc changes
+==========
+We only add a try - catch in the JavaScript Connection to prevent Node-Red Nodes to Kill the whole Node-Red process.
+
+
+
 Generators
 ==========
 
