@@ -357,7 +357,11 @@ function IPConnection() {
 
         // Check and call functions if registered for callback connected
         if (this.registeredCallbacks[IPConnection.CALLBACK_CONNECTED] !== undefined) {
-            this.registeredCallbacks[IPConnection.CALLBACK_CONNECTED](connectReason);
+            try{
+                this.registeredCallbacks[IPConnection.CALLBACK_CONNECTED](connectReason);
+            } catch (e) {
+                console.error("Error in Callback", e)
+            }
         }
 
         this.disconnectProbeIID = setInterval(this.disconnectProbe.bind(this),
