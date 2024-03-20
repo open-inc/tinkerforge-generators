@@ -2,7 +2,7 @@
   "name": "tinkerforge-openinc",
   "author":"info@openinc.de",
   "preferGlobal": true,
-  "version": "2.1.35-2",
+  "version": "<<VERSION>>",
   "description": "JavaScript API Bindings for Tinkerforge Bricks and Bricklets - BugFix for Node-Red",
   "contributors": [{}],
   "bin": {},
