@@ -1,21 +1,18 @@
 {
-  "name": "tinkerforge",
+  "name": "tinkerforge-openinc",
   "preferGlobal": true,
-  "version": "<<VERSION>>",
-  "author": "Ishraq Ibne Ashraf <ishraq@tinkerforge.com>",
-  "description": "JavaScript API Bindings for Tinkerforge Bricks and Bricklets",
+  "version": "2.1.35-1",
+  "description": "JavaScript API Bindings for Tinkerforge Bricks and Bricklets - BugFix for Node-Red",
   "contributors": [{}],
   "bin": {},
   "scripts": {},
   "main": "./Tinkerforge.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tinkerforge/generators/tree/master/javascript"
+    "url": "https://github.com/open-inc/tinkerforge-generators/tree/master/javascript"
   },
   "keywords": [
-    "hardware",
-    "embedded",
-    "api"
+    "tinkerforge"
   ],
   "dependencies" : {},
   "analyze": true,
